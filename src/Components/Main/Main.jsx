@@ -18,7 +18,7 @@ const Main = () => {
       title: "NIKOW. RECITAL",
       place: "Malevich, Chornovil Avenue 2",
       price: "from 1020 ₴",
-      bgImage: "public/photo/nikow.jpg",
+      bgImage: "/LvivProject/photo/nikow.jpg",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const Main = () => {
       title: "Artem Pyvovarov in support of the armed forces",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 950 ₴",
-      bgImage: "public/photo/pivovarov.jpg",
+      bgImage: "/LvivProject/photo/pivovarov.jpg",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Main = () => {
       title: "Max Barskih",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 890 ₴",
-      bgImage: "public/photo/barskih.jpg",
+      bgImage: "/LvivProject/photo/barskih.jpg",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Main = () => {
       title: "One in canoe",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 290 ₴",
-      bgImage: "public/photo/odynvkanoe.jpg",
+      bgImage: "/LvivProject/photo/odynvkanoe.jpg",
     },
     {
       id: 5,
@@ -54,7 +54,7 @@ const Main = () => {
       title: "Ziferblat",
       place: "Malevich Concert Arena, Chornovil Avenue 2",
       price: "from 350 ₴",
-      bgImage: "public/photo/ziferblat.jpg",
+      bgImage: "/LvivProject/photo/ziferblat.jpg",
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ const Main = () => {
       title: "Andrii Kapral. Give me a chance",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 260 ₴",
-      bgImage: "public/photo/kapral1.jpg",
+      bgImage: "/LvivProject/photo/kapral1.jpg",
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ const Main = () => {
       title: "Yulia Sanina THE HARDKISS - special kiss",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 790 ₴",
-      bgImage: "public/photo/sanina.jpg",
+      bgImage: "/LvivProject/photo/sanina.jpg",
     },
     {
       id: 8,
@@ -81,25 +81,27 @@ const Main = () => {
       title: "Assault and Piaf",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 200 ₴",
-      bgImage: "public/photo/piaf.jpg",
+      bgImage: "/LvivProject/photo/piaf.jpg",
     },
     {
       id: 9,
       type: "Theatre",
       date: "11 June 18:30-21:00",
       title: "What men are silent about",
-      place: "House of culture of railway workers \"Rocks\", Fedkovich Street 54/56",
+      place:
+        'House of culture of railway workers "Rocks", Fedkovich Street 54/56',
       price: "from 340 ₴",
-      bgImage: "public/photo/gnatkovskii2.jpg",
+      bgImage: "/LvivProject/photo/gnatkovskii2.jpg",
     },
     {
       id: 10,
       type: "Theatre",
       date: "12 June 19:00-21:00",
       title: "How to raise a man at home",
-      place: "House of culture of railway workers \"Rocks\", Fedkovich Street 54/56",
+      place:
+        'House of culture of railway workers "Rocks", Fedkovich Street 54/56',
       price: "from 340 ₴",
-      bgImage: "public/photo/vitovska2.jpg",
+      bgImage: "/LvivProject/photo/vitovska2.jpg",
     },
     {
       id: 11,
@@ -108,7 +110,7 @@ const Main = () => {
       title: "I am Batyrun",
       place: "OKO Theater, Theatralna street 22",
       price: "from 250 ₴",
-      bgImage: "public/photo/batyrun2.jpg",
+      bgImage: "/LvivProject/photo/batyrun2.jpg",
     },
     {
       id: 12,
@@ -117,10 +119,8 @@ const Main = () => {
       title: "Faine Misto: land of future legends",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 600 ₴",
-      bgImage: "public/photo/faine-misto2.jpg",
+      bgImage: "/LvivProject/photo/faine-misto2.jpg",
     },
-    
-    
   ]);
 
   const [tripsLIst, setTripsList] = useState([
@@ -129,7 +129,7 @@ const Main = () => {
       title: "Ukraine Cuisine Food Tour",
       description:
         "Accompanied by our gourmet guide, who is a real expert in Ukrainain cuisine, you will indulge in some treats at Lviv's top local restaurants, stroll along the historic streets while tasting local food, and learn about the culinary treasures of the region.",
-      bgImage: "public/photo/trips1.jpg",
+      bgImage: "/LvivProject/photo/trips1.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d15153974-Ukrainian_Cuisine_Food_Tour-Lviv_Lviv_Oblast.html",
     },
     {
@@ -137,7 +137,7 @@ const Main = () => {
       title: "Historical walks in Old Town",
       description:
         "This tour is ideal for those who are discovering the spirit of Lviv for the first time, but already are ready to give it their hearts, as well as for those who have been to Lviv many times, but have never explored the city with a guide.",
-      bgImage: "public/photo/trips2.jpg",
+      bgImage: "/LvivProject/photo/trips2.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d20032333-Historical_walk_in_Old_Town-Lviv_Lviv_Oblast.html",
     },
     {
@@ -145,7 +145,7 @@ const Main = () => {
       title: "Undergrounds Private Walking Tour",
       description:
         "Discover both the over-ground and underground sights of Lviv's UNESCO-listed Old Town in one convenient private walking tour.",
-      bgImage: "public/photo/trips3.jpg",
+      bgImage: "/LvivProject/photo/trips3.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d11471176-Undergrounds_of_Lviv_Private_Walking_Tour-Lviv_Lviv_Oblast.html",
     },
     {
@@ -153,7 +153,7 @@ const Main = () => {
       title: "Zhovkva and Krekhiv Monastery Private Half-Day Tour from Lviv",
       description:
         "Visit two magnificent historic sites on this half-day tour from Lviv and benefit from the expertise of a private guide.",
-      bgImage: "public/photo/trips4.jpg",
+      bgImage: "/LvivProject/photo/trips4.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d11471067-Zhovkva_and_Krekhiv_Monastery_Private_Half_Day_Tour_from_Lviv-Lviv_Lviv_Oblast.html",
     },
     {
@@ -161,7 +161,7 @@ const Main = () => {
       title: "Lviv Private 3-Hour Tour - Best Sights",
       description:
         "Lviv Old Town tour is a private walking tour with Lviv local who will take you along the narrow brick streets of the Old City of Lviv and wıll share exciting stories of each amazing attraction.",
-      bgImage: "public/photo/trips5.jpg",
+      bgImage: "/LvivProject/photo/trips5.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d19957744-Lviv_Private_3_Hour_Tour_Best_Sights-Lviv_Lviv_Oblast.html",
     },
   ]);
@@ -185,14 +185,13 @@ const Main = () => {
 
   const [counterOn, setCounterOn] = useState(false);
 
-  const [from, setFrom] = useState('Krakow');
-  const [to, setTo] = useState('Lviv');
+  const [from, setFrom] = useState("Krakow");
+  const [to, setTo] = useState("Lviv");
 
   const handleSwitch = () => {
     setFrom(to);
     setTo(from);
   };
-
 
   return (
     <>
@@ -328,19 +327,19 @@ const Main = () => {
               <div className="upcoming-events__sort-list">
                 <nav className="sort-list__container">
                   <ul>
-                  <div data-aos="fade-right" data-aos-delay="200">
+                    <div data-aos="fade-right" data-aos-delay="200">
                       <li onClick={() => handleCategoryChange(null)}>
                         <span>MAIN EVENTS</span>
                       </li>
                     </div>
-                  
-                  <div data-aos="fade-right" data-aos-delay="300">
+
+                    <div data-aos="fade-right" data-aos-delay="300">
                       <li onClick={() => handleCategoryChange("Concerts")}>
                         <span>CONCERTS</span>
                       </li>
                     </div>
-                  
-                  <div data-aos="fade-right" data-aos-delay="400">
+
+                    <div data-aos="fade-right" data-aos-delay="400">
                       <li onClick={() => handleCategoryChange("Theatre")}>
                         <span>Theatre</span>
                       </li>
@@ -357,8 +356,6 @@ const Main = () => {
                         <span>Stand up</span>
                       </li>
                     </div>
-
-                    
                   </ul>
                 </nav>
               </div>
@@ -481,7 +478,10 @@ const Main = () => {
                 </div>
               </div>
               <div className="get-to-lviv__right-block">
-                <img src="public/photo/travel-lviv.png" alt="travel-lviv" />
+                <img
+                  src="/LvivProject/photo/travel-lviv.png"
+                  alt="travel-lviv"
+                />
               </div>
             </div>
           </section>

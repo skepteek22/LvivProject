@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <section className="intro">
-      <Swiper
+        <Swiper
           centeredSlides={true}
           effect={"fade"}
           fadeEffect={{ crossFade: true }}
@@ -40,14 +40,17 @@ const Home = () => {
 
                 <p>
                   It's also worth visiting Shevchenko Park with its lake and
-                  alleys, where you can enjoy a bike ride or a boat trip together.
-                  Another wonderful place is High Castle Hill, which offers a
-                  magnificent view of the city, especially enchanting in the
-                  evening when the city is illuminated by lights.
+                  alleys, where you can enjoy a bike ride or a boat trip
+                  together. Another wonderful place is High Castle Hill, which
+                  offers a magnificent view of the city, especially enchanting
+                  in the evening when the city is illuminated by lights.
                 </p>
               </div>
             </div>
-            <img src="/LvivProject/photo/romantic-places.png" alt="main-bg" />
+            <img
+              src="/LvivProject/LvivProject/photo/romantic-places.png"
+              alt="main-bg"
+            />
           </SwiperSlide>
 
           <SwiperSlide className="mySwiper__slide">
@@ -65,7 +68,7 @@ const Home = () => {
                 with exquisite service, Lviv has something for everyone's taste.
               </p>
             </div>
-            <img src="/photo/restaurants.png" alt="restaurants" />
+            <img src="/LvivProject/photo/restaurants.png" alt="restaurants" />
           </SwiperSlide>
 
           <SwiperSlide className="mySwiper__slide">
@@ -86,7 +89,7 @@ const Home = () => {
                 the amenities you need for a pleasant stay.
               </p>
             </div>
-            <img src="/photo/hotels.png" alt="hotels" />
+            <img src="/LvivProject/photo/hotels.png" alt="hotels" />
           </SwiperSlide>
         </Swiper>
       </section>

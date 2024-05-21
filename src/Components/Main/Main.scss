@@ -97,7 +97,7 @@
 
 // UPCOMING EVENTS START
 .upcoming-events {
-  background-image: url(public/photo/vector2.png);
+  background-image: url(/LvivProject/photo/vector2.png);
   background-repeat: no-repeat;
   margin-bottom: 130px;
   padding-top: 80px;
@@ -470,17 +470,17 @@
           line-height: normal;
         }
 
-        .travel-options__all-info{
+        .travel-options__all-info {
           display: flex;
           flex-direction: column;
         }
 
-        .travel-options__image-container{
+        .travel-options__image-container {
           display: flex;
           align-items: center;
           justify-content: center;
-          
-          img{
+
+          img {
             padding-bottom: 50px;
             cursor: pointer;
           }
