@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "./Header.scss";
 import Popup from "../Popup/Popup";
-import defaultImage from '../photo/main-logo.png'
+
 const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "instant",
+      behavior: 'instant',
     });
   };
+
 
   const [showPopup, setShowPopup] = useState(false);
 
@@ -16,6 +17,8 @@ const Header = () => {
     setShowPopup(!showPopup);
   };
 
+  
+  
   return (
     <div className="header-bg">
       <header className="header-bg__header">
@@ -40,11 +43,12 @@ const Header = () => {
 
           <div className="header__main-logo">
             <a href="/" onClick={scrollToTop}>
-              <img src={defaultImage} alt="main-logo" />
+              <img src="public\photo\main-logo.png" alt="main-logo" />
             </a>
           </div>
 
           <ul className="header__list-right">
+            
             <a href="#">
               <li className="list-right__item">Bonuses</li>
             </a>
