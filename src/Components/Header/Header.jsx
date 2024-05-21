@@ -43,7 +43,7 @@ const Header = () => {
 
           <div className="header__main-logo">
             <a href="/" onClick={scrollToTop}>
-              <img src="public\photo\main-logo.png" alt="main-logo" />
+              <img src="src/assets/main-logo.png" alt="main-logo" />
             </a>
           </div>
 
