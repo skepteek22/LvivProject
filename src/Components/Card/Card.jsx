@@ -31,8 +31,8 @@ const Card = ({ info }) => {
             <img
               src={
                 isLiked
-                  ? "//LvivProject/svg/red-heart.svg"
-                  : "//LvivProject/svg/heart.svg"
+                  ? "/LvivProject/svg/red-heart.svg"
+                  : "/LvivProject/svg/heart.svg"
               }
               alt="like"
             />
