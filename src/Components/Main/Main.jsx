@@ -18,7 +18,7 @@ const Main = () => {
       title: "NIKOW. RECITAL",
       place: "Malevich, Chornovil Avenue 2",
       price: "from 1020 ₴",
-      bgImage: "src/assets/nikow.jpg",
+      bgImage: "public/photo/nikow.jpg",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const Main = () => {
       title: "Artem Pyvovarov in support of the armed forces",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 950 ₴",
-      bgImage: "src/assets/pivovarov.jpg",
+      bgImage: "public/photo/pivovarov.jpg",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Main = () => {
       title: "Max Barskih",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 890 ₴",
-      bgImage: "src/assets/barskih.jpg",
+      bgImage: "public/photo/barskih.jpg",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Main = () => {
       title: "One in canoe",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 290 ₴",
-      bgImage: "src/assets/odynvkanoe.jpg",
+      bgImage: "public/photo/odynvkanoe.jpg",
     },
     {
       id: 5,
@@ -54,7 +54,7 @@ const Main = () => {
       title: "Ziferblat",
       place: "Malevich Concert Arena, Chornovil Avenue 2",
       price: "from 350 ₴",
-      bgImage: "src/assets/ziferblat.jpg",
+      bgImage: "public/photo/ziferblat.jpg",
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ const Main = () => {
       title: "Andrii Kapral. Give me a chance",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 260 ₴",
-      bgImage: "src/assets/kapral1.jpg",
+      bgImage: "public/photo/kapral1.jpg",
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ const Main = () => {
       title: "Yulia Sanina THE HARDKISS - special kiss",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 790 ₴",
-      bgImage: "src/assets/sanina.jpg",
+      bgImage: "public/photo/sanina.jpg",
     },
     {
       id: 8,
@@ -81,7 +81,7 @@ const Main = () => {
       title: "Assault and Piaf",
       place: "Lviv Theater of Opera and Ballet, Svobody Ave 28",
       price: "from 200 ₴",
-      bgImage: "src/assets/piaf.jpg",
+      bgImage: "public/photo/piaf.jpg",
     },
     {
       id: 9,
@@ -90,7 +90,7 @@ const Main = () => {
       title: "What men are silent about",
       place: "House of culture of railway workers \"Rocks\", Fedkovich Street 54/56",
       price: "from 340 ₴",
-      bgImage: "src/assets/gnatkovskii2.jpg",
+      bgImage: "public/photo/gnatkovskii2.jpg",
     },
     {
       id: 10,
@@ -99,7 +99,7 @@ const Main = () => {
       title: "How to raise a man at home",
       place: "House of culture of railway workers \"Rocks\", Fedkovich Street 54/56",
       price: "from 340 ₴",
-      bgImage: "src/assets/vitovska2.jpg",
+      bgImage: "public/photo/vitovska2.jpg",
     },
     {
       id: 11,
@@ -108,7 +108,7 @@ const Main = () => {
       title: "I am Batyrun",
       place: "OKO Theater, Theatralna street 22",
       price: "from 250 ₴",
-      bgImage: "src/assets/batyrun2.jpg",
+      bgImage: "public/photo/batyrun2.jpg",
     },
     {
       id: 12,
@@ -117,7 +117,7 @@ const Main = () => {
       title: "Faine Misto: land of future legends",
       place: "!FESTrepublic territory, Staroznesenska St 24-26",
       price: "from 600 ₴",
-      bgImage: "src/assets/faine-misto2.jpg",
+      bgImage: "public/photo/faine-misto2.jpg",
     },
     
     
@@ -129,7 +129,7 @@ const Main = () => {
       title: "Ukraine Cuisine Food Tour",
       description:
         "Accompanied by our gourmet guide, who is a real expert in Ukrainain cuisine, you will indulge in some treats at Lviv's top local restaurants, stroll along the historic streets while tasting local food, and learn about the culinary treasures of the region.",
-      bgImage: "src/assets/trips1.jpg",
+      bgImage: "public/photo/trips1.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d15153974-Ukrainian_Cuisine_Food_Tour-Lviv_Lviv_Oblast.html",
     },
     {
@@ -137,7 +137,7 @@ const Main = () => {
       title: "Historical walks in Old Town",
       description:
         "This tour is ideal for those who are discovering the spirit of Lviv for the first time, but already are ready to give it their hearts, as well as for those who have been to Lviv many times, but have never explored the city with a guide.",
-      bgImage: "src/assets/trips2.jpg",
+      bgImage: "public/photo/trips2.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d20032333-Historical_walk_in_Old_Town-Lviv_Lviv_Oblast.html",
     },
     {
@@ -145,7 +145,7 @@ const Main = () => {
       title: "Undergrounds Private Walking Tour",
       description:
         "Discover both the over-ground and underground sights of Lviv's UNESCO-listed Old Town in one convenient private walking tour.",
-      bgImage: "src/assets/trips3.jpg",
+      bgImage: "public/photo/trips3.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d11471176-Undergrounds_of_Lviv_Private_Walking_Tour-Lviv_Lviv_Oblast.html",
     },
     {
@@ -153,7 +153,7 @@ const Main = () => {
       title: "Zhovkva and Krekhiv Monastery Private Half-Day Tour from Lviv",
       description:
         "Visit two magnificent historic sites on this half-day tour from Lviv and benefit from the expertise of a private guide.",
-      bgImage: "src/assets/trips4.jpg",
+      bgImage: "public/photo/trips4.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d11471067-Zhovkva_and_Krekhiv_Monastery_Private_Half_Day_Tour_from_Lviv-Lviv_Lviv_Oblast.html",
     },
     {
@@ -161,7 +161,7 @@ const Main = () => {
       title: "Lviv Private 3-Hour Tour - Best Sights",
       description:
         "Lviv Old Town tour is a private walking tour with Lviv local who will take you along the narrow brick streets of the Old City of Lviv and wıll share exciting stories of each amazing attraction.",
-      bgImage: "src/assets/trips5.jpg",
+      bgImage: "public/photo/trips5.jpg",
       site: "https://www.tripadvisor.com/AttractionProductReview-g295377-d19957744-Lviv_Private_3_Hour_Tour_Best_Sights-Lviv_Lviv_Oblast.html",
     },
   ]);
@@ -293,19 +293,19 @@ const Main = () => {
               <div className="about-lviv__right-side">
                 <div data-aos="fade-down">
                   <div className="right-side__photo-container">
-                    <img src="src/assets/city1.png" alt="lviv1" />
+                    <img src="public\photo\city1.png" alt="lviv1" />
                   </div>
                 </div>
 
                 <div data-aos="fade-up">
                   <div className="right-side__photo-container">
-                    <img src="src/assets/city2.png" alt="lviv2" />
+                    <img src="public\photo\city2.png" alt="lviv2" />
                   </div>
                 </div>
 
                 <div data-aos="fade-down">
                   <div className="right-side__photo-container">
-                    <img src="src/assets/city3.png" alt="lviv3" />
+                    <img src="public\photo\city3.png" alt="lviv3" />
                   </div>
                 </div>
               </div>
@@ -481,7 +481,7 @@ const Main = () => {
                 </div>
               </div>
               <div className="get-to-lviv__right-block">
-                <img src="src/assets/travel-lviv.png" alt="travel-lviv" />
+                <img src="public/photo/travel-lviv.png" alt="travel-lviv" />
               </div>
             </div>
           </section>
@@ -564,7 +564,7 @@ const Main = () => {
                     href="https://www.instagram.com/maksleskiv223/"
                     target="_blank"
                   >
-                    <img src="src/assets/maksym.png" alt="maksym" />
+                    <img src="public\photo\maksym.png" alt="maksym" />
                   </a>
                 </div>
 
@@ -573,7 +573,7 @@ const Main = () => {
                     href="https://www.instagram.com/_olesia_shn/"
                     target="_blank"
                   >
-                    <img src="src/assets/olesia.png" alt="olesia" />
+                    <img src="public\photo\olesia.png" alt="olesia" />
                   </a>
                 </div>
 
@@ -582,19 +582,19 @@ const Main = () => {
                     href="https://www.instagram.com/artemchek22/"
                     target="_blank"
                   >
-                    <img src="src/assets/artem.png" alt="artem" />
+                    <img src="public\photo\artem.png" alt="artem" />
                   </a>
                 </div>
 
                 <div data-aos="fade-up">
                   <a href="" target="_blank">
-                    <img src="src/assets/oleg.png" alt="oleg" />
+                    <img src="public\photo\oleg.png" alt="oleg" />
                   </a>
                 </div>
 
                 <div data-aos="fade-down">
                   <a href="#" target="_blank">
-                    <img src="src/assets/olexandr.png" alt="olexandr" />
+                    <img src="public\photo\olexandr.png" alt="olexandr" />
                   </a>
                 </div>
 
@@ -603,7 +603,7 @@ const Main = () => {
                     href="https://www.instagram.com/feardelans/"
                     target="_blank"
                   >
-                    <img src="src/assets/vlad.png" alt="vlad" />
+                    <img src="public\photo\vlad.png" alt="vlad" />
                   </a>
                 </div>
               </div>

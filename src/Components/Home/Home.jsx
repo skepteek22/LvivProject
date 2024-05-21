@@ -47,7 +47,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <img src="src/assets/romantic-places.png" alt="main-bg" />
+            <img src="public\photo\romantic-places.png" alt="main-bg" />
           </SwiperSlide>
 
           <SwiperSlide className="mySwiper__slide">
@@ -65,7 +65,7 @@ const Home = () => {
                 with exquisite service, Lviv has something for everyone's taste.
               </p>
             </div>
-            <img src="src/assets/restaurants.png" alt="restaurants" />
+            <img src="public\photo\restaurants.png" alt="restaurants" />
           </SwiperSlide>
 
           <SwiperSlide className="mySwiper__slide">
@@ -86,7 +86,7 @@ const Home = () => {
                 the amenities you need for a pleasant stay.
               </p>
             </div>
-            <img src="src/assets/hotels.png" alt="hotels" />
+            <img src="public\photo\hotels.png" alt="hotels" />
           </SwiperSlide>
         </Swiper>
       </section>
