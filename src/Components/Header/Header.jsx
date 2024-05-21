@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.scss";
 import Popup from "../Popup/Popup";
-import defaultImage from "public/photo/main-logo.png";
+import defaultImage from '../photo/main-logo.png'
 const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({
