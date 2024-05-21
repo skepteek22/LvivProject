@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__wrapper">
         <div className="footer__log">
-          <img src="public\photo\logo-footer.png" alt="logo" />
+          <img src="/LvivProject\photo\logo-footer.png" alt="logo" />
         </div>
 
         <div className="footer__lviv">

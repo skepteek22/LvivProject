@@ -4,7 +4,7 @@ const RestaurantCard = () => {
   return (
     <div className="card-container__restaurants-card">
       <div className="restaurants-card__image">
-        <img src="public\photo\restaurants1.png" alt="restaurant" />
+        <img src="/LvivProject\photo\restaurants1.png" alt="restaurant" />
       </div>
       <div className="restaurants-card__bottom-block">
         <div className="restaurants-card__title">

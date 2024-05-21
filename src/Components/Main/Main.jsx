@@ -25,7 +25,7 @@ const Main = () => {
       type: "Concerts",
       date: "24 August 19:00-21:00",
       title: "Artem Pyvovarov in support of the armed forces",
-      place: "!FESTrepublic territory, Staroznesenska St 24-26",
+      place: "!FESTre/LvivProject territory, Staroznesenska St 24-26",
       price: "from 950 ₴",
       bgImage: "/LvivProject/photo/pivovarov.jpg",
     },
@@ -34,7 +34,7 @@ const Main = () => {
       type: "Concerts",
       date: "24 June 19:00-21:00",
       title: "Max Barskih",
-      place: "!FESTrepublic territory, Staroznesenska St 24-26",
+      place: "!FESTre/LvivProject territory, Staroznesenska St 24-26",
       price: "from 890 ₴",
       bgImage: "/LvivProject/photo/barskih.jpg",
     },
@@ -117,7 +117,7 @@ const Main = () => {
       type: "Festivals",
       date: "2-4 August 11:00-23:00",
       title: "Faine Misto: land of future legends",
-      place: "!FESTrepublic territory, Staroznesenska St 24-26",
+      place: "!FESTre/LvivProject territory, Staroznesenska St 24-26",
       price: "from 600 ₴",
       bgImage: "/LvivProject/photo/faine-misto2.jpg",
     },
@@ -292,19 +292,19 @@ const Main = () => {
               <div className="about-lviv__right-side">
                 <div data-aos="fade-down">
                   <div className="right-side__photo-container">
-                    <img src="public\photo\city1.png" alt="lviv1" />
+                    <img src="/LvivProject\photo\city1.png" alt="lviv1" />
                   </div>
                 </div>
 
                 <div data-aos="fade-up">
                   <div className="right-side__photo-container">
-                    <img src="public\photo\city2.png" alt="lviv2" />
+                    <img src="/LvivProject\photo\city2.png" alt="lviv2" />
                   </div>
                 </div>
 
                 <div data-aos="fade-down">
                   <div className="right-side__photo-container">
-                    <img src="public\photo\city3.png" alt="lviv3" />
+                    <img src="/LvivProject\photo\city3.png" alt="lviv3" />
                   </div>
                 </div>
               </div>
@@ -316,8 +316,7 @@ const Main = () => {
               <div className="upcoming-events__title-icon">
                 <div className="title-icon__icon">
                   <img
-                    src="/LvivProject/svg/
-\calendar-mini.svg"
+                    src="/LvivProject/svg/calendar-mini.svg"
                     alt="calendar"
                   />
                   <span>All events</span>
@@ -474,7 +473,7 @@ const Main = () => {
                   </div>
                   <div className="travel-options__image-container">
                     <img
-                      src="public/svg/switch button.svg"
+                      src="/LvivProject/svg/switch button.svg"
                       alt="switch button"
                       onClick={handleSwitch}
                     />
@@ -568,7 +567,7 @@ const Main = () => {
                     href="https://www.instagram.com/maksleskiv223/"
                     target="_blank"
                   >
-                    <img src="public\photo\maksym.png" alt="maksym" />
+                    <img src="/LvivProject\photo\maksym.png" alt="maksym" />
                   </a>
                 </div>
 
@@ -577,7 +576,7 @@ const Main = () => {
                     href="https://www.instagram.com/_olesia_shn/"
                     target="_blank"
                   >
-                    <img src="public\photo\olesia.png" alt="olesia" />
+                    <img src="/LvivProject\photo\olesia.png" alt="olesia" />
                   </a>
                 </div>
 
@@ -586,19 +585,19 @@ const Main = () => {
                     href="https://www.instagram.com/artemchek22/"
                     target="_blank"
                   >
-                    <img src="public\photo\artem.png" alt="artem" />
+                    <img src="/LvivProject\photo\artem.png" alt="artem" />
                   </a>
                 </div>
 
                 <div data-aos="fade-up">
                   <a href="" target="_blank">
-                    <img src="public\photo\oleg.png" alt="oleg" />
+                    <img src="/LvivProject\photo\oleg.png" alt="oleg" />
                   </a>
                 </div>
 
                 <div data-aos="fade-down">
                   <a href="#" target="_blank">
-                    <img src="public\photo\olexandr.png" alt="olexandr" />
+                    <img src="/LvivProject\photo\olexandr.png" alt="olexandr" />
                   </a>
                 </div>
 
@@ -607,7 +606,7 @@ const Main = () => {
                     href="https://www.instagram.com/feardelans/"
                     target="_blank"
                   >
-                    <img src="public\photo\vlad.png" alt="vlad" />
+                    <img src="/LvivProject\photo\vlad.png" alt="vlad" />
                   </a>
                 </div>
               </div>

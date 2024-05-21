@@ -30,7 +30,9 @@ const Card = ({ info }) => {
           <div className="type-and-like__like" onClick={handleHeartClick}>
             <img
               src={
-                isLiked ? "/public/svg/red-heart.svg" : "/public/svg/heart.svg"
+                isLiked
+                  ? "//LvivProject/svg/red-heart.svg"
+                  : "//LvivProject/svg/heart.svg"
               }
               alt="like"
             />
