@@ -1,22 +1,31 @@
 import React from "react";
 import "./MiniCard.scss";
 
-const MiniCard = ({ info, handleLike}) => {
+const MiniCard = ({ info, handleLike }) => {
   return (
     <>
-      <div className="mini-card" style={{ backgroundImage: `url(${info.bgImage})` }}>
+      <div
+        className="mini-card"
+        style={{ backgroundImage: `url(${info.bgImage})` }}
+      >
         <div className="mini-card__container">
           <div className="mini-container__type-and-like">
-            
             <div className="mini-type-and-like__type">
-              <img src="public\svg\Ellipse 33.svg" alt="elipse" />
+              <img
+                src="/LvivProject/svg/
+\Ellipse 33.svg"
+                alt="elipse"
+              />
               <span>{info.type}</span>
             </div>
 
             <div className="mini-type-and-like__like" onClick={handleLike}>
-              <img src="public\svg\red-heart.svg" alt="heart" />
+              <img
+                src="/LvivProject/svg/
+\red-heart.svg"
+                alt="heart"
+              />
             </div>
-
           </div>
 
           <div className="mini-container__about-event">
@@ -29,7 +38,11 @@ const MiniCard = ({ info, handleLike}) => {
             </div>
             <div className="mini-about-event__place-and-price">
               <div className="mini-about-event__place">
-                <img src="public\svg\map-pin.svg" alt="map-pin" />
+                <img
+                  src="/LvivProject/svg/
+\map-pin.svg"
+                  alt="map-pin"
+                />
                 <span>{info.place}</span>
               </div>
 

@@ -315,7 +315,11 @@ const Main = () => {
             <div className="upcoming-events__wrapper">
               <div className="upcoming-events__title-icon">
                 <div className="title-icon__icon">
-                  <img src="public\svg\calendar-mini.svg" alt="calendar" />
+                  <img
+                    src="/LvivProject/svg/
+\calendar-mini.svg"
+                    alt="calendar"
+                  />
                   <span>All events</span>
                 </div>
 

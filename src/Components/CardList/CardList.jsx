@@ -31,19 +31,21 @@ const CardList = ({ cardList }) => {
           <div className="swiper-controller">
             <img
               className="swiper-button-next"
-              src="public\svg\arrow-right-circle-line.svg"
+              src="/LvivProject/svg/
+\arrow-right-circle-line.svg"
               alt=""
             />
             <img
               className="swiper-button-prev"
-              src="public\svg\arrow-left-circle-line.svg"
+              src="/LvivProject/svg/
+\arrow-left-circle-line.svg"
               alt=""
             />
           </div>
 
           {cardList.map((slide) => (
             <SwiperSlide className="mySlide" key={slide.id}>
-              <Card info={slide}/>
+              <Card info={slide} />
             </SwiperSlide>
           ))}
         </Swiper>

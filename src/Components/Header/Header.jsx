@@ -6,10 +6,9 @@ const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'instant',
+      behavior: "instant",
     });
   };
-
 
   const [showPopup, setShowPopup] = useState(false);
 
@@ -17,8 +16,6 @@ const Header = () => {
     setShowPopup(!showPopup);
   };
 
-  
-  
   return (
     <div className="header-bg">
       <header className="header-bg__header">
@@ -43,12 +40,11 @@ const Header = () => {
 
           <div className="header__main-logo">
             <a href="/" onClick={scrollToTop}>
-              <img src="public\photo\main-logo.png" alt="main-logo" />
+              <img src="\LvivProject\photo\main-logo.png" alt="main-logo" />
             </a>
           </div>
 
           <ul className="header__list-right">
-            
             <a href="#">
               <li className="list-right__item">Bonuses</li>
             </a>
@@ -57,7 +53,10 @@ const Header = () => {
               <li className="list-right__item">Creators</li>
             </a>
             <li className="list-right__item" onClick={togglePopup}>
-              <img src="public\svg\heart.svg" alt="heart" />
+              <img
+                src="/LvivProject/svg/heart.svg"
+                alt="heart"
+              />
             </li>
 
             <li className="list-right__item">

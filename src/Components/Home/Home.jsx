@@ -48,7 +48,7 @@ const Home = () => {
               </div>
             </div>
             <img
-              src="/LvivProject/LvivProject/photo/romantic-places.png"
+              src="/LvivProject/photo/romantic-places.png"
               alt="main-bg"
             />
           </SwiperSlide>
