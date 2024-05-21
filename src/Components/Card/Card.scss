@@ -1,0 +1,81 @@
+.card {
+  padding: 25px;
+  width: 284px;
+  height: 196px;
+  background-image: url(public/photo/eventbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  .card__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    .container__type-and-like {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 4px;
+      }
+
+      img:last-child {
+        cursor: pointer;
+      }
+    }
+
+    .container__about-event {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #fff;
+      .about-event__date {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      .about-event__title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+    }
+
+    .about-event__place-and-price {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 700;
+      width: 100%;
+      .about-event__place {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        span {
+          margin-left: 4px;
+        }
+      }
+
+      .about-event__price {
+        span {
+          margin-right: 4px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper__block-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .swiperTrips{
+        width: 87%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        color: #fff;
+    }
+}
+
+.swiperTrips__slide{
+    width: 450px;
+    height: 520px;
+    position: relative;
+
+    .swiper-button-next, .swiper-button-prev{
+        color: #fff !important;
+    }
+
+}
+

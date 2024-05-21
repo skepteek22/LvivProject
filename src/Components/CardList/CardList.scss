@@ -1,0 +1,32 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.mySlides{
+  height: 280px;
+}
+
+.mySlide img {
+  all: initial;
+}
+
+
+
+.mySlide:hover .card {
+  transform: scale(1.02);
+}
+
+
+.swiper-pagination-bullet {
+  background-color: #aea7a7;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7e7b7b;
+}
+
+

@@ -1,0 +1,25 @@
+.card-container__restaurants-card {
+  margin-bottom: 40px;
+}
+
+.restaurants-card__title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.restaurants-card__location {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.restaurants-card__time-and-like {
+  .time-and-like__time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+}
