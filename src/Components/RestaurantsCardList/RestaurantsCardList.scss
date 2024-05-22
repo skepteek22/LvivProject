@@ -1,0 +1,11 @@
+.main-block__right {
+  margin-left: 85px;
+
+  .right__card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    height: 512px;
+    overflow-y: auto;
+  }
+}

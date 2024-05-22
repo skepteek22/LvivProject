@@ -1,14 +1,15 @@
 import React from "react";
 import "./RestaurantCard.scss";
-const RestaurantCard = () => {
+
+const RestaurantCard = ({ info }) => {
   return (
     <div className="card-container__restaurants-card">
       <div className="restaurants-card__image">
-        <img src="/LvivProject\photo\restaurants1.png" alt="restaurant" />
+        <img src={info.image} alt="restaurant" />
       </div>
       <div className="restaurants-card__bottom-block">
         <div className="restaurants-card__title">
-          <h3>Kilinski</h3>
+          <h3>{info.title}</h3>
         </div>
         <div className="restaurants-card__location">
           <img
@@ -16,7 +17,7 @@ const RestaurantCard = () => {
 \map-pin (1).svg"
             alt="pin"
           />
-          <p>Lviv, Ulasa Samchuka, 16</p>
+          <p>{info.place}</p>
         </div>
         <div className="restaurants-card__time-and-like">
           <div className="time-and-like__time">
@@ -25,7 +26,7 @@ const RestaurantCard = () => {
 \clock.svg"
               alt="clock"
             />
-            <p>MON-SAT 12 PM - 11 PM SUN 11 AM - 11 PM</p>
+            <p>{info.time}</p>
           </div>
         </div>
       </div>
