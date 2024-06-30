@@ -1,0 +1,79 @@
+// POPULAR TRIPS START
+
+.popular-trips {
+  margin-bottom: 120px;
+  padding-top: 80px;
+  .popular-trips__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper__block-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    .block-top__left {
+      display: flex;
+      flex-direction: column;
+      margin-right: 40px;
+      .left__heading {
+        h1 {
+          color: #8b6a6a;
+          font-size: 60px;
+          font-weight: 700;
+          white-space: nowrap;
+        }
+
+        margin-bottom: 10px;
+      }
+
+      .left__desc {
+        span {
+          color: #000;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .block-top__right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .right__top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        p {
+          padding-left: 150px;
+        }
+      }
+
+      .right__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        p {
+          padding-left: 75px;
+        }
+      }
+
+      .right__top,
+      .right__bottom {
+        p {
+          color: #192424;
+          font-size: 22px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+//POPULAR TRIPS END

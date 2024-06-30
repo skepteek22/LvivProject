@@ -12,18 +12,14 @@ const Popup = ({ show, onClose }) => {
     dispatch(toggleLike({ card: info }));
   };
 
+  if (!show) return null;
+
   return (
     <>
-      {show && <div className="overlay" onClick={onClose}></div>}
-
+      <div className="overlay" onClick={onClose}></div>
       <div className={`popup ${show ? "show" : ""}`}>
         <div className="popup__title-and-arrow">
-          <img
-            src="/LvivProject/svg/
-\back.svg"
-            alt="back"
-            onClick={onClose}
-          />
+          <img src="/LvivProject/svg/back.svg" alt="back" onClick={onClose} />
           <h3 className="title-and-arrow__title">
             <b>Liked events</b>
           </h3>

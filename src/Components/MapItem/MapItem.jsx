@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '@tomtom-international/web-sdk-maps/dist/maps.css';
 import tt from '@tomtom-international/web-sdk-maps';
-import './Map.scss';
+import './MapItem.scss';
 
 const API_KEY = 'ZytKZGKjYoAutnB2bAOsTSkzLZRprtt4';
 const LVIV_CENTER = [24.031111, 49.842957];
 const MAX_RESULTS = 100;
 
-function Map({ category }) {
+function MapItem({ category }) {
   const mapElement = useRef();
   const [map, setMap] = useState(null);
   const [markers, setMarkers] = useState({});
@@ -70,4 +70,4 @@ function Map({ category }) {
   return <div ref={mapElement} className="mapDiv" />;
 }
 
-export default Map;
+export default MapItem;

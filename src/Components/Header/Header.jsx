@@ -1,79 +1,55 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import "./Header.scss";
 import Popup from "../Popup/Popup";
 
 const Header = () => {
-  const scrollToTop = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const scrollToTop = useCallback(() => {
     window.scrollTo({
       top: 0,
       behavior: "instant",
     });
-  };
+  }, []);
 
-  const [showPopup, setShowPopup] = useState(false);
-
-  const togglePopup = () => {
-    setShowPopup(!showPopup);
-  };
+  const togglePopup = useCallback(() => {
+    setShowPopup(prevShowPopup => !prevShowPopup);
+  }, []);
 
   return (
     <div className="header-bg">
       <header className="header-bg__header">
         <nav className="header__nav">
           <ul className="header__list-left">
-            <a href="#events">
-              <li className="list-left__item">Events</li>
-            </a>
-
-            <a href="#popular-trips">
-              <li className="list-left__item">Trips</li>
-            </a>
-
-            <a href="#map">
-              <li className="list-left__item">Map</li>
-            </a>
-
-            <a href="#about-lviv">
-              <li className="list-right__item">About Lviv</li>
-            </a>
+            <li className="list-left__item"><a href="#events">Events</a></li>
+            <li className="list-left__item"><a href="#popular-trips">Trips</a></li>
+            <li className="list-left__item"><a href="#map">Map</a></li>
+            <li className="list-left__item"><a href="#about-lviv">About Lviv</a></li>
           </ul>
 
           <div className="header__main-logo">
             <a href="/" onClick={scrollToTop}>
-              <img src="\LvivProject\photo\main-logo.png" alt="main-logo" />
+              <img src="/LvivProject/photo/main-logo.png" alt="main-logo" />
             </a>
           </div>
 
           <ul className="header__list-right">
-            <a href="#">
-              <li className="list-right__item">Bonuses</li>
-            </a>
-
-            <a href="#our-creators">
-              <li className="list-right__item">Creators</li>
-            </a>
+            <li className="list-right__item"><a href="#">Bonuses</a></li>
+            <li className="list-right__item"><a href="#our-creators">Creators</a></li>
             <li className="list-right__item" onClick={togglePopup}>
-              <img
-                src="/LvivProject/svg/heart.svg"
-                alt="heart"
-              />
+              <img src="/LvivProject/svg/heart.svg" alt="heart" />
             </li>
-
             <li className="list-right__item">
               <select className="item__select">
-                <option className="select__item" value="value1">
-                  Eng
-                </option>
-                <option className="select__item" value="value2">
-                  Ua
-                </option>
+                <option className="select__item" value="value1">Eng</option>
+                <option className="select__item" value="value2">Ua</option>
               </select>
             </li>
           </ul>
         </nav>
       </header>
 
-      <Popup show={showPopup} onClose={togglePopup} />
+      {showPopup && <Popup show={showPopup} onClose={togglePopup} />}
     </div>
   );
 };

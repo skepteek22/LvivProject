@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss";
 import "swiper/scss/pagination";
@@ -10,7 +10,7 @@ import { EffectFade, Pagination, Autoplay } from "swiper/modules";
 
 const Home = () => {
   return (
-    <>
+    <Fragment>
       <section className="intro">
         <Swiper
           centeredSlides={true}
@@ -47,10 +47,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <img
-              src="/LvivProject/photo/romantic-places.png"
-              alt="main-bg"
-            />
+            <img src="/LvivProject/photo/romantic-places.png" alt="main-bg" />
           </SwiperSlide>
 
           <SwiperSlide className="mySwiper__slide">
@@ -93,7 +90,7 @@ const Home = () => {
           </SwiperSlide>
         </Swiper>
       </section>
-    </>
+    </Fragment>
   );
 };
 

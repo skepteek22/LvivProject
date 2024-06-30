@@ -1,0 +1,67 @@
+// UPCOMING EVENTS START
+.upcoming-events {
+    background-image: url(/LvivProject/photo/vector2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+    padding-top: 80px;
+  
+    .upcoming-events__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .upcoming-events__title-icon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      margin-bottom: 62px;
+  
+      .title-icon__icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+  
+        span {
+          color: #000;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+  
+      .title-icon__title {
+        color: #8b6a6a;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  
+    .upcoming-events__sort-list {
+      margin-bottom: 42px;
+      .sort-list__container {
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 27px;
+  
+          li {
+            color: #000;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
+  // UPCOMING EVENTS END
