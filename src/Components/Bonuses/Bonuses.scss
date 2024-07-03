@@ -1,0 +1,120 @@
+.bonuses-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Затемнение */
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ticket-wrapper {
+    width: 420px;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(241, 232, 207);
+    border-radius: 20px;
+    position: relative;
+
+    .ticket-wrapper__back-arrow {
+      position: absolute;
+      top: 0;
+      left: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    .ticket {
+      width: 320px;
+      height: 410px;
+      background: rgb(240, 203, 98);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      border-radius: 20px;
+
+      .ticket__top {
+        height: 310px;
+        width: 100%;
+        position: relative;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7) 50%,
+          rgba(255, 255, 255, 0) 0%
+        );
+        background-position: bottom;
+        background-size: 25px 2px;
+        background-repeat: repeat-x;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .top__qr-code {
+          width: 256px;
+          height: 256px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .ticket__bottom {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bottom-code__info {
+          width: 70%;
+          display: flex;
+          align-items: left;
+          flex-direction: column;
+          gap: 5px;
+
+          .info__tittle {
+            font-size: 24px;
+            color: #441717;
+          }
+
+          .info__disc {
+            font-size: 14px;
+            color: #7c5353;
+            font-weight: 700;
+          }
+        }
+
+        .bottom__percentage {
+          font-weight: 700;
+          font-size: 30px;
+          color: #441717;
+        }
+      }
+
+      .circles {
+        position: absolute;
+        height: fit-content;
+        width: 368px;
+        bottom: 20%;
+        transform: translate(25%, 0);
+        right: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .circle {
+          width: 40px;
+          height: 40px;
+          background: rgb(241, 232, 207);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,11 @@
 import React, { useState, useCallback } from "react";
 import "./Header.scss";
 import Popup from "../Popup/Popup";
+import Bonuses from "../Bonuses/Bonuses";
 
 const Header = () => {
   const [showPopup, setShowPopup] = useState(false);
+  const [showBonus, setShowBonus] = useState(false);
 
   const scrollToTop = useCallback(() => {
     window.scrollTo({
@@ -14,6 +16,10 @@ const Header = () => {
 
   const togglePopup = useCallback(() => {
     setShowPopup(prevShowPopup => !prevShowPopup);
+  }, []);
+
+  const handleBonus = useCallback(() => {
+    setShowBonus(bonus => !bonus);
   }, []);
 
   return (
@@ -28,13 +34,13 @@ const Header = () => {
           </ul>
 
           <div className="header__main-logo">
-            <a href="/" onClick={scrollToTop}>
+            <a href="/LvivProject/index.html" onClick={scrollToTop}>
               <img src="/LvivProject/photo/main-logo.png" alt="main-logo" />
             </a>
           </div>
 
           <ul className="header__list-right">
-            <li className="list-right__item"><a href="#">Bonuses</a></li>
+            <li className="list-right__item" onClick={handleBonus}><a href="#">Bonuses</a></li>
             <li className="list-right__item"><a href="#our-creators">Creators</a></li>
             <li className="list-right__item" onClick={togglePopup}>
               <img src="/LvivProject/svg/heart.svg" alt="heart" />
@@ -50,6 +56,7 @@ const Header = () => {
       </header>
 
       {showPopup && <Popup show={showPopup} onClose={togglePopup} />}
+      {showBonus && <Bonuses onClose={handleBonus}/>}
     </div>
   );
 };
