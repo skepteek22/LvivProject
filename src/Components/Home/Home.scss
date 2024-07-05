@@ -7,7 +7,11 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  position: initial;
+  
+  .mySwiper__slide{
+    width: 100%;
+    height: 100%;
+  }
   
   .swiper-pagination {
     transform: translate3d(-390px, -140px, 0);

@@ -1,6 +1,6 @@
 // GET TO LVIV START
 .get-to-lviv {
-  padding-top: 80px;
+  
   margin-bottom: 120px;
   .get-to-lviv__wrapper {
     display: flex;
@@ -46,7 +46,7 @@
         padding: 22px 88px 18px 119px;
         border-radius: 16px;
         font-weight: 700;
-        margin-bottom: 47px;
+        margin-bottom: 30px;
         line-height: 24px;
       }
 
@@ -54,7 +54,7 @@
         display: flex;
         flex-direction: row;
         background-color: #eaeaea;
-        padding: 80px 120px;
+        padding: 50px 50px;
         border-radius: 12px;
 
         button {
@@ -73,6 +73,7 @@
           font-style: normal;
           font-weight: 700;
           line-height: normal;
+          cursor: pointer;
         }
 
         .travel-options__all-info {

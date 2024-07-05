@@ -3,12 +3,6 @@ import './GetToLviv.scss';
 
 const GetToLviv = () => {
   const [from, setFrom] = useState("Krakow");
-  const [to, setTo] = useState("Lviv");
-
-  const handleSwitch = useCallback(() => {
-    setFrom(to);
-    setTo(from);
-  }, [from, to]);
 
   return (
     <Fragment>
@@ -34,29 +28,18 @@ const GetToLviv = () => {
                     onChange={(e) => setFrom(e.target.value)}
                   >
                     <option value="Krakow">Krakow, Poland</option>
-                    <option value="Lviv">Lviv, Ukraine</option>
+                    <option value="Amsterdam">Amsterdam, Netherlands</option>
+                    <option value="Oslo">Oslo, Sweden</option>
                   </select>
                 </div>
 
                 <div className="travel-options__from">
                   <span>To</span>
-                  <select
-                    className="travel-options__select"
-                    value={to}
-                    onChange={(e) => setTo(e.target.value)}
-                  >
+                  <select className="travel-options__select" disabled>
                     <option value="Lviv">Lviv, Ukraine</option>
-                    <option value="Krakow">Krakow, Poland</option>
                   </select>
                 </div>
                 <button type="button">SEE ALL OPTIONS</button>
-              </div>
-              <div className="travel-options__image-container">
-                <img
-                  src="/LvivProject/svg/switch button.svg"
-                  alt="switch button"
-                  onClick={handleSwitch}
-                />
               </div>
             </div>
           </div>
